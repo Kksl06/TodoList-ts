@@ -10,8 +10,6 @@
 
 - [React Router] - React Router is a standard library for routing in React.
 
-- [Node.js] - Evented I/O for the backend.
-
 - [React-Icons] - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
 - [CSS] - CSS is a style sheet language used for controlling the appearance of HTML documents. By using CSS, you can specify how text, colors, sizes, and other style properties are displayed.
