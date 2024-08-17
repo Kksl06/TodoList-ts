@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+## <strong>Todo App TypeScript</strong><br>
+### Tech
+<hr>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [React] - React is a JavaScript-based UI development framework.
 
-Currently, two official plugins are available:
+- [TypeScript] - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Redux/Toolkit] - Redux Toolkit is an official, opinionated, batteries-included toolset for efficient Redux development.
 
-## Expanding the ESLint configuration
+- [React Router] - React Router is a standard library for routing in React.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Node.js] - Evented I/O for the backend.
 
-- Configure the top-level `parserOptions` property like this:
+- [React-Icons] - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [CSS] - CSS is a style sheet language used for controlling the appearance of HTML documents. By using CSS, you can specify how text, colors, sizes, and other style properties are displayed.
+
+- [Visual Studio Code] - Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.- 
+<br>
+
+###  Features and Functionality
+<hr>
+
+- Todo App with TypeScript. More reliable with TypeScript.
+
+###  App Flow
+<hr>
+Project Structure
+
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+my-todo-app 
+├── node_modules 
+├── public 
+│   ├── index.html  
+│   └── favicon.ico  
+├── src
+│   ├── components  
+│   │   ├── Todo.tsx  
+│   │   ├── TodoCreate.tsx  
+│   │   └── TodoList.tsx  
+│   ├── redux  
+│   │   ├── store.ts  
+│   │   └── todoSlice.ts  
+│   ├── types  
+│   │   └── Types.ts  
+│   ├── App.tsx  
+│   ├── index.css  
+│   ├── index.tsx  
+│   └── App.css  
+├── package.json  
+└── tsconfig.json
